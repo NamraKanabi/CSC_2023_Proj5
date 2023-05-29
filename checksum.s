@@ -1,43 +1,4 @@
 #
-# CMPUT 229 Student Submission License
-# Version 1.0
-#
-# Copyright 2020 <student name>
-#
-# Redistribution is forbidden in all circumstances. Use of this
-# software without explicit authorization from the author or CMPUT 229
-# Teaching Staff is prohibited.
-#
-# This software was produced as a solution for an assignment in the course
-# CMPUT 229 - Computer Organization and Architecture I at the University of
-# Alberta, Canada. This solution is confidential and remains confidential 
-# after it is submitted for grading.
-#
-# Copying any part of this solution without including this copyright notice
-# is illegal.
-#
-# If any portion of this software is included in a solution submitted for
-# grading at an educational institution, the submitter will be subject to
-# the sanctions for plagiarism at that institution.
-#
-# If this software is found in any public website or public repository, the
-# person finding it is kindly requested to immediately report, including 
-# the URL or other repository locating information, to the following email
-# address:
-#
-#          cmput229@ualberta.ca
-#
-#---------------------------------------------------------------
-#
-# handlePacket will need to the calculated header checksum of a 
-# given packet. During testing, you should paste the code from
-# your solution to lab3 in this file with the line 
-# .include "common.s" removed. During grading, a correct 
-# implementation of checksum will replace this file.
-#
-#---------------------------------------------------------------
-# 
-
 # Function: checksum            
 # Function checksum accepts a0 as parameter which contains starting 
 # address of an IP packet in memory. check sum calls function flipHalfwordBytes
